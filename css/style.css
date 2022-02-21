@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background: #AAAAAA;
     border: border-box;
 }
 /* style header area  */
@@ -20,6 +21,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 80px;
 }
 .manu{
     display: flex;
@@ -43,3 +45,65 @@ body{
 }
 
 /* style header area end  */
+/* main area  */
+.camara{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    padding-bottom: 80px;
+    
+
+}
+.contan{
+    padding-right: 20px;
+}
+.contan h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+
+
+}
+
+.contan p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+}
+.but { 
+    background: #f43f5e;
+    border-radius: 41px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px 10px 24px;
+    color: #fff;
+    border: none;
+}
+.camaras{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* main area end */
+/* logo area svg images  */
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   justify-content: space-around;
+   
+
+}
+.logos{
+    padding: 25px;
+    border: 1px solid #C0CCDA;
+    border-radius: 10PX;
+}
+/* logo area svg images end  */
