@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: #AAAAAA;
+    background: #aaaaaaa9;
     border: border-box;
 }
 /* style header area  */
@@ -140,6 +140,7 @@ body{
     justify-content: center;
     grid-gap: 30px;
 
+
 }
 .producs{
     padding: 15px;
@@ -172,4 +173,66 @@ body{
     color: #787885;
     letter-spacing: 0.018em;
     line-height: 143%;
+}
+/* plase section  */
+.place{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 80px;
+    
+}
+.one{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+
+
+}
+.places p{
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.now{
+    background: #f43f5e;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px 10px 24px;
+    color: #fff;
+    border: none;
+}
+/* footers--area  */
+.footers{
+    margin-top: 80px;
+    text-align: center;
+    background-color: #18191F;
+    padding: 14px;
+}
+.foot h3{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.foot p{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.fcebook i{
+    color: #FFFFFF;
+    padding: 14px;
+
+}
+@media only screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        
+    }
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      .manu a{
+          display: none;
+      }
+    
 }
