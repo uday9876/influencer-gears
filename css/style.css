@@ -17,6 +17,7 @@ body{
     margin-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
 }
 .navbar{
     display: flex;
@@ -25,6 +26,7 @@ body{
 }
 .manu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -48,14 +50,16 @@ body{
 /* main area  */
 .camara{
     display: flex;
-    justify-content: space;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 80px;
     
 
 }
 .contan{
     padding-right: 20px;
+    width: 50%;
 }
 .contan h1{
     font-style: normal;
@@ -95,9 +99,9 @@ body{
 /* logo area svg images  */
 .images{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
    justify-content: space-around;
+   padding: 15px;
    
 
 }
@@ -177,16 +181,23 @@ body{
 /* plase section  */
 .place{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
     padding-top: 80px;
+
     
 }
 .one{
     font-style: normal;
     font-weight: bold;
-    font-size: 39px;
+    font-size: 30px;
 
+
+}
+.places{
+    width: 50%;
+    justify-content: center;
 
 }
 .places p{
@@ -222,17 +233,6 @@ body{
     padding: 14px;
 
 }
-@media only screen and (max-width:768px) {
-    .container {
-        width: 100%;
-        
-    }
-    .navbar{
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-      .manu a{
-          display: none;
-      }
-    
-}
+@media (max-width: 575.98px) {
+   
+ }
